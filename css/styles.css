@@ -90,3 +90,24 @@ img {
   width: 50%;
 }
 
+ul{
+  list-style: none;
+}
+
+#ppp {
+  margin: 12px;
+}
+
+#vvv {
+  margin: 12px;
+}
+
+#program {
+  display: none;
+}
+
+#jobs {
+  display: none;
+}
+
+

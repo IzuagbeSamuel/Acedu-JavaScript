@@ -15,7 +15,7 @@ function divide (number1 , number2) {
   return resut;
 }
 
-$(document).ready(function(){
+/*$(document).ready(function(){
 $("#head").click(function(){
   alert("Acedu BootCamp");
 })
@@ -41,6 +41,34 @@ $(document).ready(function(){
     $("#first").show();
     $("#hide").hide();
   })
+})*/
+
+$(document).ready(function(){
+  $("#pro").hover(function(){
+    $("#program").show();
+  },
+  function(){
+    $("#program").hide();
+  })
+   
 })
+  
+
+
+
+
+$(document).ready(function(){
+  $("#jo").hover(function(){
+    $("#jobs").show();
+  },
+  function() {
+    $("#jobs").hide();
+  }
+  )
+  
+})
+
+
+
  
 
