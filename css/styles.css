@@ -2,6 +2,11 @@ body {
   font-family: 'Times New Roman', Times, serif;
 }
 
+:root {
+  --primary-color:coral
+
+}
+
 h1{
   text-align: center;
   padding: 30px;
@@ -95,11 +100,25 @@ ul{
 }
 
 #ppp {
-  margin: 12px;
+  margin: 1px;
+  border:2px solid white;
+  text-align: center;
+  background-color: coral;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
 }
 
 #vvv {
-  margin: 12px;
+  margin: 1px;
+  border:2px solid white;
+  text-align: center;
+  background-color: var(--primary-color); 
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  cursor:alias;
 }
 
 #program {
@@ -109,5 +128,28 @@ ul{
 #jobs {
   display: none;
 }
+
+.col-4 #pro, #jo, #home {
+  padding: 4px;
+  background-color: var(--primary-color);
+  margin: 5px;
+  text-align: center;
+  color: white;
+}
+
+.ppp li {
+  padding: 5px;
+}
+
+#pro{
+  cursor: pointer;
+}
+
+#jo {
+  cursor: pointer;
+}
+
+
+
 
 

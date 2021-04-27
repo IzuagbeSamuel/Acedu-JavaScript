@@ -50,12 +50,8 @@ $(document).ready(function(){
   function(){
     $("#program").hide();
   })
-   
 })
   
-
-
-
 
 $(document).ready(function(){
   $("#jo").hover(function(){
@@ -63,10 +59,16 @@ $(document).ready(function(){
   },
   function() {
     $("#jobs").hide();
-  }
-  )
+  })
+})
+
+
+
+/* Form Jquery */
+$(document).ready(function(){
   
 })
+
 
 
 
